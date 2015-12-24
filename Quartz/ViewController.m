@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "DrawView.h"
+#import "DashedLine.h"
 
 @interface ViewController ()
 
@@ -18,10 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    DashedLine *dashedLine = [[DashedLine alloc]initWithFrame:CGRectMake(40, 500, 300, 20)];
+    [self.view addSubview:dashedLine];
     [self initView];
 }
 - (void)initView{
-    DrawView *drawView = [[DrawView alloc]initWithFrame:self.view.frame];
+    DrawView *drawView = [[DrawView alloc]initWithFrame:CGRectMake(0, 20, 375, 400)];
     drawView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:drawView];
     

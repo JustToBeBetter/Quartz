@@ -16,6 +16,7 @@
 		0A49D2C51BDF17DA00868CE6 /* QuartzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A49D2C41BDF17DA00868CE6 /* QuartzTests.m */; };
 		0A49D2D01BDF17F400868CE6 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A49D2CF1BDF17F400868CE6 /* DrawView.m */; };
 		0A49D2D21BDF20B800868CE6 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A49D2D11BDF20B800868CE6 /* dog.png */; };
+		0A7053C11C2BC4BC00C8313A /* DashedLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7053C01C2BC4BC00C8313A /* DashedLine.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		0A49D2CE1BDF17F400868CE6 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
 		0A49D2CF1BDF17F400868CE6 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 		0A49D2D11BDF20B800868CE6 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		0A7053BF1C2BC4BC00C8313A /* DashedLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashedLine.h; sourceTree = "<group>"; };
+		0A7053C01C2BC4BC00C8313A /* DashedLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashedLine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 				0A49D2D11BDF20B800868CE6 /* dog.png */,
 				0A49D2CE1BDF17F400868CE6 /* DrawView.h */,
 				0A49D2CF1BDF17F400868CE6 /* DrawView.m */,
+				0A7053BF1C2BC4BC00C8313A /* DashedLine.h */,
+				0A7053C01C2BC4BC00C8313A /* DashedLine.m */,
 				0A49D2A71BDF17DA00868CE6 /* Quartz */,
 				0A49D2C11BDF17DA00868CE6 /* QuartzTests */,
 				0A49D2A61BDF17DA00868CE6 /* Products */,
@@ -229,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A49D2B11BDF17DA00868CE6 /* ViewController.m in Sources */,
+				0A7053C11C2BC4BC00C8313A /* DashedLine.m in Sources */,
 				0A49D2AE1BDF17DA00868CE6 /* AppDelegate.m in Sources */,
 				0A49D2D01BDF17F400868CE6 /* DrawView.m in Sources */,
 				0A49D2AB1BDF17DA00868CE6 /* main.m in Sources */,
@@ -426,6 +432,7 @@
 				0A49D2CA1BDF17DA00868CE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A49D2CB1BDF17DA00868CE6 /* Build configuration list for PBXNativeTarget "QuartzTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +441,7 @@
 				0A49D2CD1BDF17DA00868CE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
